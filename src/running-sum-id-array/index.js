@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-var runningSum = function (nums) {
+let runningSum = function (nums) {
     const newArray = [];
     let preValue = nums[0];
     newArray.push(preValue);
@@ -13,3 +13,4 @@ var runningSum = function (nums) {
     }
     return newArray ;
 };
+module.exports = runningSum ;
