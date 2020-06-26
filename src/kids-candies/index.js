@@ -15,3 +15,5 @@ let kidsWithCandies = function (candies, extraCandies) {
     }
     return output;
 };
+
+module.exports = kidsWithCandies ;
