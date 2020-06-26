@@ -14,4 +14,4 @@ let numJewelsInStones = function(J, S) {
         }
         return   jewelsCount ;
 };
-
+module.exports = numJewelsInStones ;
